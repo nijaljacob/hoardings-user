@@ -1,0 +1,13 @@
+<ngb-alert *ngIf="!staticAlertClosed" type="primary" (close)="staticAlertClosed = true">Feature will be availble soon.</ngb-alert>
+<div class="dash-parent">
+    <div class="dash-tab">
+        <span class="dash-tab-btn" (click)="goToPage('organization')">Organization</span>
+        <span class="dash-tab-btn" (click)="goToPage('bookings')">Bookings</span>
+        <span class="dash-tab-btn" (click)="goToPage('schedules')">Schedule</span>
+        <span class="dash-tab-btn" (click)="goToPage('assets')">Assets</span>
+        <span class="dash-tab-btn" (click)="goToPage('assets')">Home</span>
+    </div>
+    
+    <router-outlet></router-outlet>
+
+</div>

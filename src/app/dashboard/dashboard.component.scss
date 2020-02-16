@@ -1,0 +1,19 @@
+.dash-parent {
+    height: 100%;
+    .dash-tab {
+        height: 50px;
+        width: 100%;
+        border: 1px solid black;
+        background-color: #c2c2c2;
+
+        .dash-tab-btn {
+            float: right;
+            padding: 15px;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

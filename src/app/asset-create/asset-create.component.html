@@ -1,0 +1,138 @@
+<ngb-alert *ngIf="!staticAlertClosed" type="primary" (close)="staticAlertClosed = true">Feature will be availble soon</ngb-alert>
+<div>
+	<form [formGroup]="assetForm" class="row detail-form">
+		<div class="col-6">
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Idetifier</label>
+				<input type="text" class="form-control" formControlName="assetId">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Owner</label>
+				<input type="text" class="form-control" formControlName="assetOwner">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Type</label>
+				<input type="text" class="form-control" formControlName="assetType">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Height</label>
+				<input type="text" class="form-control" formControlName="assetHeight">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Height Unit</label>
+				<input type="text" class="form-control" formControlName="assetHeightUnit">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Width</label>
+				<input type="text" class="form-control" formControlName="assetWidth">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Width Unit</label>
+				<input type="text" class="form-control" formControlName="assetWidthUnit">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Area</label>
+				<input type="text" class="form-control" formControlName="assetArea">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Area Unit</label>
+				<input type="text" class="form-control" formControlName="assetAreaUnit">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset State</label>
+				<input type="text" class="form-control" formControlName="assetState">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset City</label>
+				<input type="text" class="form-control" formControlName="assetCity">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Address</label>
+				<input type="text" class="form-control" formControlName="assetAddress">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Pin Code</label>
+				<input type="text" class="form-control" formControlName="assetPinCode">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">AIN Number</label>
+				<input type="text" class="form-control" formControlName="ainNumber">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Lighting Type</label>
+				<input type="text" class="form-control" formControlName="lightingType">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Latitude</label>
+				<input type="text" class="form-control" formControlName="latitude">
+			</div>
+		</div>
+		<div class="col-6">
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Longtitude</label>
+				<input type="text" class="form-control" formControlName="longtitude">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Marker</label>
+				<input type="text" class="form-control" formControlName="assetMarker">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset SVG</label>
+				<input type="text" class="form-control" formControlName="assetSVG">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Image</label>
+				<input type="text" class="form-control" formControlName="assetImage">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset VR</label>
+				<input type="text" class="form-control" formControlName="assetVR">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Price</label>
+				<input type="text" class="form-control" formControlName="assetPrice">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Price Unit</label>
+				<input type="text" class="form-control" formControlName="assetPriceUnit">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Discount</label>
+				<input type="text" class="form-control" formControlName="assetDiscount">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Summary</label>
+				<input type="text" class="form-control" formControlName="assetSummary">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Landmark</label>
+				<input type="text" class="form-control" formControlName="assetLandMark">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset TG Details</label>
+				<input type="text" class="form-control" formControlName="assetTGDetails">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Creative Details</label>
+				<input type="text" class="form-control" formControlName="assetCreativeDetails">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Availability</label>
+				<input type="text" class="form-control" formControlName="assetAvailablity">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Policies</label>
+				<input type="text" class="form-control" formControlName="assetPolicies">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Asset Eyeballs</label>
+				<input type="text" class="form-control" formControlName="assetEyeBalls">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Discard Asset</label>
+				<input type="text" class="form-control" formControlName="discardAsset">
+			</div>
+		</div>
+		<input type="submit" (click)="createAsset()" value="Create Asset">
+	</form>
+</div>

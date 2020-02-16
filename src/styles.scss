@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/******** Styles for AG-Grid ***************/
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+/********************************************/
+
+.detail-form {
+    width: 100%;
+    padding: 30px;;
+}
+
+ngb-alert {
+    position: absolute;
+    width: 75%;
+    top: 5px;
+    margin: auto;
+}
